@@ -47,3 +47,57 @@
    background-color: #2b2b2b;
    color: white;
 }
+
+/* Intro related styles */
+.intro-section {
+   display: grid;
+   justify-items: center;
+   padding: 5.25rem 0;
+}
+
+.greeting {
+   font-size: 1.5rem;
+   font-weight: normal;
+}
+
+.title {
+   font-size: 3rem;
+   color: white;
+   margin-top: 0.75rem;
+   margin-bottom: 1rem;
+}
+
+.nickname {
+   background-image: linear-gradient(to right, #9e47b5, #c6426e);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+
+.intro {
+   max-width: 40.625rem;
+}
+
+/* Tech skills related styles */
+.tech-skills {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tech-card {
+   padding: 2rem;
+   display: grid;
+   justify-items: center;
+   border-radius: 0.75rem;
+}
+
+.tech-card > .icon {
+   max-width: 3rem;
+   max-height: 3rem;
+}
+
+.tech-card > .name {
+   margin-top: 0.75rem;
+   margin-bottom: 0.625rem;
+   color: white;
+}
