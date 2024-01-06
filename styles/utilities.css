@@ -8,4 +8,17 @@ body {
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
       "Noto Color Emoji";
    line-height: 1.6;
+   background: #1e1e1e;
+   color: #717171;
+}
+
+a,
+button {
+   color: #717171;
+}
+
+.flex-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
